@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Movies App</title>
+    </head>
+    <body>
+        <h1>Movies</h1>
+        <input type="text" id="movieInput" placeholder="Enter a movie">
+        <button onclick="searchMovie()">Search movie</button>
+        <br>
+        <h2 id="title" style="height: 10px;"></h2>
+        <h4 id="genres" style="height: 0px;"></h4><ul id="genreList"></ul>
+        <h4 id="plot" style="height: 5px;"></h4><p id="description"></p>
+        <div>
+            <hr>
+            <button onclick="window.location.href='./index.html';">Go to To-Do List</button>
+        </div>
+        <script src="./movies-app.js"></script>
+    </body>
+</html>
