@@ -1,5 +1,5 @@
 1. Tasks:
-a. Update the fetchData function to occasionally reject the Promise with an error. Handle the error in the catch block when
+   a. Update the fetchData function to occasionally reject the Promise with an error. Handle the error in the catch block when
 using .then() and in the catch block of the fetchDataAsync function. Math.random()
 b. Create a new function called processData that takes an array of numbers as a parameter and returns a Promise. Inside the
 Promise, calculate the sum of all numbers in the array and resolve the Promise with the result after a delay of 1 second.
